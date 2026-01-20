@@ -9,6 +9,7 @@
 | 平台 | 难度 | 免费额度 | TCP支持 | 文档 |
 |------|------|---------|---------|------|
 | [Zeabur](https://zeabur.com) | ⭐ | ✅ | 原生 | [查看](docs/zeabur.md) |
+| [爪云 Claw Cloud](https://console.run.claw.cloud) | ⭐ | ✅ $5/月 | 原生 | [查看](docs/clawcloud.md) |
 | [Railway](https://railway.app) | ⭐⭐ | ✅ | TCP代理 | [查看](docs/railway.md) |
 | [Fly.io](https://fly.io) | ⭐⭐ | ✅ | 原生 | [查看](docs/flyio.md) |
 | [Cloudflare](https://cloudflare.com) | ⭐⭐⭐ | ✅ | Tunnel | [查看](docs/cloudflare.md) |
@@ -49,6 +50,12 @@ ssh root@<域名> -p <端口>
 - ✅ 亚太节点丰富
 - ✅ TCP 端口原生支持
 
+### 爪云 Claw Cloud（推荐免费用户）
+
+- ✅ GitHub 账号每月 $5 免费
+- ✅ 操作简单
+- ✅ 私有镜像仓库
+
 ### Railway（推荐开发者）
 
 - ✅ GitHub 集成
@@ -72,12 +79,13 @@ ssh root@<域名> -p <端口>
 ```
 free-ssh/
 ├── README.md
-├── docs/
-│   ├── zeabur.md
-│   ├── railway.md
-│   ├── flyio.md
-│   └── cloudflare.md
-└── LICENSE
+├── LICENSE
+└── docs/
+    ├── zeabur.md
+    ├── clawcloud.md
+    ├── railway.md
+    ├── flyio.md
+    └── cloudflare.md
 ```
 
 ## 注意事项
